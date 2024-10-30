@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .roboto-medium-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .roboto-black-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+    }
+.container{
+    max-width: 1000px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-img{
+    width: 100px;
+    height: 120px;
+    border:3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.hBio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5{
+    color: aqua;
+
+}
+.hContact{
+    float: right;
+    padding: 30px;
+}
+.hContact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+.hContact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-section{
+  
+}
+.content{
+  margin-bottom: 30px;
+}
+.left-div{
+  width: 30%;
+  float: left;
+}
+.right-div{
+  width: 70%;
+  float: left;
+}
+.coomon-hr{
+  border: solid black 1px;
+  border-bottom: none;
+  width: 100%;
+  margin: 20px auto;
+}
+/*educationn-part*/
+
+.edu-temp-left{
+  float: left;
+  width: 45%;
+}
+.edu-temp-right{
+  float: right;
+  width: 45%;
+}
+.bottom-container{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+.bottom-container a{
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+}
+.bottom-container p{
+  color: white;
+  margin-top: 20px;
+}
